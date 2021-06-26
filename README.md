@@ -33,3 +33,27 @@ El caso consiste en que una compañía de telecomunicaciones se ha percatado de 
 - descuentos: es SI, si el cliente tiene activo algún descuento (campaña).
 
 La variable target se debe construir. En este caso esta variable describiría si el cliente en cuestión abandona la compañía o no.
+
+### Índice del notebook
+- 1. Carga de datos y creación de target
+    - 1.1 Carga y construcción de tablones
+    - 1.2 Creación de la target
+- 2. Preprocesado y limpieza de datos
+    - 2.1 Tratamiento de valores nulos
+    - 2.2 Comprobación de duplicados
+    - 2.3 Revisión de tipos de variables en tabla y transformaciones de variables
+    - 2.4 Web scraping para agrupar la variable 'provincia' en comunidades autónomas
+    - 2.5 Comprobación outliers
+    - 2.6 Revisión gráfica de distribución de variables
+- 3. Muestreo de datos
+- 4. Modelo analítico para predecir la fuga de clientes
+- 5. Mejora de modelo mediante feature engineering y otros procesos
+    - 5.1 Correlaciones respecto a la variable objetivo antes de realizar feature engineering
+    - 5.2 Feature engineering
+    - 5.3 Selección de variables
+    - 5.4 Modelos con variables seleccionadas
+    - 5.5 Tuneado de hiperparámetros
+    - 5.6 Comprobación de que no hay overfitting en validación cruzada
+    - 5.7 Características del modelo escogido
+- 6. Predecir los clientes de la cosecha de enero que más probabilidad tienen de cambiarse de operadora.
+- 7. Obtener y explicar las claves de la marcha de los clientes de la compañía
